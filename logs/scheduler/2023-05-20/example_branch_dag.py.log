@@ -1,0 +1,42 @@
+[2023-05-20T17:25:21.704+0900] {processor.py:157} INFO - Started process (PID=22684) to work on /Users/freemjlab/airflow/dags/example_branch_dag.py
+[2023-05-20T17:25:21.705+0900] {processor.py:826} INFO - Processing file /Users/freemjlab/airflow/dags/example_branch_dag.py for tasks to queue
+[2023-05-20T17:25:21.705+0900] {logging_mixin.py:149} INFO - [2023-05-20T17:25:21.705+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/freemjlab/airflow/dags/example_branch_dag.py
+[2023-05-20T17:25:21.734+0900] {logging_mixin.py:149} INFO - [2023-05-20T17:25:21.732+0900] {dagbag.py:350} ERROR - Failed to import: /Users/freemjlab/airflow/dags/example_branch_dag.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/freemjlab/airflow/dags/example_branch_dag.py", line 22, in <module>
+    with DAG( **dag_args ) as dag:
+NameError: name 'dag_args' is not defined
+[2023-05-20T17:25:21.735+0900] {processor.py:838} WARNING - No viable dags retrieved from /Users/freemjlab/airflow/dags/example_branch_dag.py
+[2023-05-20T17:25:22.318+0900] {processor.py:179} INFO - Processing /Users/freemjlab/airflow/dags/example_branch_dag.py took 0.616 seconds
+[2023-05-20T17:25:53.728+0900] {processor.py:157} INFO - Started process (PID=22693) to work on /Users/freemjlab/airflow/dags/example_branch_dag.py
+[2023-05-20T17:25:53.728+0900] {processor.py:826} INFO - Processing file /Users/freemjlab/airflow/dags/example_branch_dag.py for tasks to queue
+[2023-05-20T17:25:53.729+0900] {logging_mixin.py:149} INFO - [2023-05-20T17:25:53.729+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/freemjlab/airflow/dags/example_branch_dag.py
+[2023-05-20T17:25:53.750+0900] {logging_mixin.py:149} INFO - [2023-05-20T17:25:53.749+0900] {dagbag.py:350} ERROR - Failed to import: /Users/freemjlab/airflow/dags/example_branch_dag.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/freemjlab/airflow/dags/example_branch_dag.py", line 22, in <module>
+    with DAG( **dag_args ) as dag:
+NameError: name 'dag_args' is not defined
+[2023-05-20T17:25:53.750+0900] {processor.py:838} WARNING - No viable dags retrieved from /Users/freemjlab/airflow/dags/example_branch_dag.py
+[2023-05-20T17:25:54.353+0900] {processor.py:179} INFO - Processing /Users/freemjlab/airflow/dags/example_branch_dag.py took 0.627 seconds
+[2023-05-20T17:26:26.252+0900] {processor.py:157} INFO - Started process (PID=22716) to work on /Users/freemjlab/airflow/dags/example_branch_dag.py
+[2023-05-20T17:26:26.253+0900] {processor.py:826} INFO - Processing file /Users/freemjlab/airflow/dags/example_branch_dag.py for tasks to queue
+[2023-05-20T17:26:26.253+0900] {logging_mixin.py:149} INFO - [2023-05-20T17:26:26.253+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/freemjlab/airflow/dags/example_branch_dag.py
+[2023-05-20T17:26:26.288+0900] {logging_mixin.py:149} INFO - [2023-05-20T17:26:26.286+0900] {dagbag.py:350} ERROR - Failed to import: /Users/freemjlab/airflow/dags/example_branch_dag.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/freemjlab/airflow/dags/example_branch_dag.py", line 22, in <module>
+    with DAG( **dag_args ) as dag:
+NameError: name 'dag_args' is not defined
+[2023-05-20T17:26:26.288+0900] {processor.py:838} WARNING - No viable dags retrieved from /Users/freemjlab/airflow/dags/example_branch_dag.py
+[2023-05-20T17:26:27.488+0900] {processor.py:179} INFO - Processing /Users/freemjlab/airflow/dags/example_branch_dag.py took 1.238 seconds

@@ -1,0 +1,29 @@
+[2023-05-20T17:25:20.340+0900] {manager.py:487} INFO - Processing files using up to 1 processes at a time 
+[2023-05-20T17:25:20.340+0900] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2023-05-20T17:25:20.341+0900] {manager.py:489} INFO - Checking for new files in /Users/freemjlab/airflow/dags every 300 seconds
+[2023-05-20T17:25:20.341+0900] {manager.py:758} INFO - Searching for files in /Users/freemjlab/airflow/dags
+[2023-05-20T17:25:20.341+0900] {manager.py:761} INFO - There are 1 files in /Users/freemjlab/airflow/dags
+[2023-05-20T17:25:49.555+0900] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/freemjlab/airflow/dags/example_branch_dag.py                           0           1  1.65s           2023-05-20T08:25:22
+================================================================================
+[2023-05-20T17:26:19.641+0900] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/freemjlab/airflow/dags/example_branch_dag.py                           0           1  1.70s           2023-05-20T08:25:54
+================================================================================
+[2023-05-20T17:26:49.732+0900] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/freemjlab/airflow/dags/example_branch_dag.py                           0           1  2.65s           2023-05-20T08:26:27
+================================================================================
